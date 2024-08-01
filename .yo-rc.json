@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "library",
+    "buildTool": "gradle",
+    "cacheProvider": "hazelcast",
+    "clientFramework": "angular",
+    "devServerPort": 4200,
+    "entities": ["Publisher", "Author", "Client", "Book", "BorrowedBook"],
+    "jhipsterVersion": "8.1.0",
+    "jwtSecretKey": "ZWU4YzYwYjEzOTQyZmU4MDE5NDFhMTg2MmY0YWY2OTkxYTEzNTMxYjI2ZTQ3ZTU0MTBmMjlkYzRhNGM1OTQzNGY5ZTU1NTE4MjgyZDQ5MTVlNGUyMDdhZWYxZWU3YzFmYTc0MWE5NzJkYWM0Y2UzYTdlMTI4MWYzYzMyMDNhYjA=",
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1722485672000,
+    "monorepository": true,
+    "nativeLanguage": "en",
+    "packageFolder": "com/sgaraba/library",
+    "packageName": "com.sgaraba.library",
+    "prodDatabaseType": "postgresql",
+    "skipCommitHook": true,
+    "testFrameworks": ["cypress", "cucumber", "gatling", "playwright"]
+  }
+}
